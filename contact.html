@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="style2.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="preloader" id="preloader">
+        <div class="spinner"></div>
+    </div>
+   <a href="#header"> <button class="btnnnn"><i class="fas fa-angle-up"></i></button></a>
+   <header id="header">
+       <h3>Book Your Travel Hotel </h3>
+   </header>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item home">
+            <a class="nav-link" href="index.html">Home</a>
+
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="dining.html">Dining & Bars</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="meeting.html">Meetings & Events</a>
+        </li>
+     
+        <li class="nav-item">
+            <a class="nav-link" href="thehotel.html">The hotel</a>
+        </li>
+      
+        <li class="nav-item ">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+   
+    </div>
+  </nav> 
+
+  <section>
+    <div class="row" id="deom">
+        
+        
+    </div>
+    </section>
+    
+    <!---------------------->
+
+    <section  class="container-fluid FFFFF">
+        <div  class="row" >
+
+            <div class="map  col-md-6   col-sm-12"  >
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.305935303!2d-73.69949651751314!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z2YbZitmI2YrZiNix2YPYjCDYp9mE2YjZhNin2YrYp9iqINin2YTZhdiq2K3Yr9ip!5e0!3m2!1sar!2sjo!4v1630044108529!5m2!1sar!2sjo" width="100%" height="700" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+
+            <div class="form  col-md-5   col-sm-12">
+                <form  onsubmit="return myfuncion()"  action="#">
+                    <div >
+                        <h3  id="error"></h3>
+                    </div>
+                    <h3 >Send us a message</h3>
+                     <hr>
+                     <div  class="name">
+                        <p >Your name</p>
+                        <input id="name"  type="text"  >
+                     </div>
+                    
+                    <div  class="email">
+                    <p >Your email</p>
+                    <input  id="email"  type="text">
+                    </div>
+
+                    <p >Your message</p>
+            
+                    <div  class="message">
+                        
+                      <textarea name="" value="" id="message"  rows="7"></textarea>
+            
+                    </div>
+
+                    <div  class="submit">
+                    <input type="submit" id="send" value="send">
+                    </div>
+                </form>
+                <div  id="icon"  >
+                  <h4>Or contact us directly</h4>
+                  <hr>
+                  <div class="ico ico-email">  <i class="fa fa-envelope  fa-2x"  style="color:#a77b4e ;"></i> <a  href="mailto:info at bookyourtravel" style="color: black;" > info at bookyourtravel</a></div>
+                
+                  <br>
+                 
+                  </div> 
+            </div>
+
+                
+            
+            
+        </div>
+    
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-- Footer -->
+ <footer class="text-white">
+    <!-- Grid container -->
+    <div class="container-fluid p-5">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4 ">Book Your Travel Hotel</h5>
+            <ul class="list-unstyled ">
+              <li>
+                <a href="#!" class="text-white "><i class="fas fa-home me-3 block"></i> 123 Address,Sunny Isles Beach,Florida </a>
+              </li>
+              <li>
+                <a href="#!" class="text-white "><i class="fas fa-phone me-3"></i> + 249922360054</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white "><i class="fas fa-envelope me-3"></i>
+                  info@bookyourtravel.com</a>
+              </li>
+            </ul>
+            <p>follows us</p>
+            <div class="container p-4 pb-0">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+               
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+          
+                <!-- Twitter -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+          
+    
+          
+                <!-- Instagram -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+          
+                <!-- Linkedin -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  href="#!"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <!-- Github -->
+                <a
+                  class="btn btn-primary btn-floating m-1"
+                  href="#!"
+                  role="button"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </section>
+              <!-- Section: Social media -->
+            </div>
+          
+  
+          </div>
+          
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Newsletters</h5>
+            <div class="input-group">
+              <input type="search" class="form-control " placeholder="Your Email Address" aria-label="Search"
+                aria-describedby="search-addon" />
+              <button type="button" class="btn  text-white sign">Sign Up</button>
+            </div>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0 hhhhhh" >
+            <h5 class="text-uppercase">Useful</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Reservvations:(+249)922360054</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Check-in: 4 PM</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Check-out: 11 AM</a>
+              </li>
+  
+            </ul>
+          </div>
+        </div>
+        
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">team.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+<script src="main3.js"></script>
+</body>
+</html>
